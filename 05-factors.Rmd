@@ -144,12 +144,6 @@ show_map
     knitr::raw_latex(paste0("\n\n\\includepdf[pages=-,noautoscale, width=205mm, height = 240mm, pagecommand={}]{data/05-intervention-files/mapping2.pdf}\\label{fig:",chunk_lab,"}\n\n"))
   }
    
- 
-
-
-
-#include_xlsx(my_file = "data/05-intervention-files/05-04-iyarn-mapping.xlsx")
-
 ```
 
 

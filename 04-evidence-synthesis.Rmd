@@ -1,4 +1,4 @@
-# Evidence synthesis: Situating iyarn + directions for evaluation and development {#evidence-synthesis}
+# Evidence synthesis: Situating + directions for evaluation and development {#evidence-synthesis}
 
 We have developed a synthesis of evidence, based on the program logic matrix \@ref(model) and questions. These syntheses should:
 

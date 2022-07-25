@@ -1,4 +1,4 @@
-# Mapping iyarn's theory of change through a feature:output matrix {#model}
+# Mapping theory of change through a feature:output matrix {#model}
 
 ```{r ToC-background, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 
