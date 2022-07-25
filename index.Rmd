@@ -28,7 +28,7 @@ output:
     book_filename: "UTS-final-report"
     fig_caption: yes
     css: "style.css"
-    output_dir: "_book/pdf/"
+    output_dir: "_docs/"
     keep_tex: true
     latex_engine: xelatex
     titlepage: true
@@ -43,7 +43,7 @@ output:
     repo: https://github.com/sjgknight/md-generic
     sharing: no
     download: ["pdf", "epub"]
-    output_dir: "_book/bs4_book"
+    output_dir: "_docs/"
     css: "style.css"
 header-includes:
   - \usepackage{xcolor}
