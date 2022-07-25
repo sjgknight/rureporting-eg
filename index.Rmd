@@ -3,10 +3,9 @@ title: "projectname: Developing the Evidence Base: Final Project Report \\ \\"
 subtitle: "Knight, S., (2022). projectname: Developing the Evidence Base – Final Project Report. University of Technology Sydney."
 author: "Simon Knight"
 date: "`r Sys.Date()`"
-github-repo: sjgknight/md-generic
+github-repo: sjgknight/rureporting-eg
 site: "bookdown::bookdown_site"
 url: https\://sjgknight.com
-book_filename: "UTS-final-report"
 biblio-style: apalike
 split_bib: no
 nocite: '@*'
@@ -28,7 +27,6 @@ output:
     book_filename: "UTS-final-report"
     fig_caption: yes
     css: "style.css"
-    output_dir: "_docs/"
     keep_tex: true
     latex_engine: xelatex
     titlepage: true
@@ -40,10 +38,11 @@ output:
       ui:
         chapter_name: "Part "
   bookdown::bs4_book:
-    repo: https://github.com/sjgknight/md-generic
+    repo: 
+      base: https://github.com/sjgknight/rureporting-eg
+      branch: main
     sharing: no
     download: ["pdf", "epub"]
-    output_dir: "_docs/"
     css: "style.css"
 header-includes:
   - \usepackage{xcolor}

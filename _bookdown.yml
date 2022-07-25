@@ -1,0 +1,4 @@
+book_filename: "UTS-final-report"
+output_dir: "docs"
+view: https://github.com/sjgknight/rureporting/blob/main/%s
+edit: https://github.com/sjgknight/rureporting/blob/main/%s
