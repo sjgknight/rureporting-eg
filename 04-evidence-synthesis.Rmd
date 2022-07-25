@@ -1,0 +1,36 @@
+# Evidence synthesis: Situating iyarn + directions for evaluation and development {#evidence-synthesis}
+
+We have developed a synthesis of evidence, based on the program logic matrix \@ref(model) and questions. These syntheses should:
+
+* Represent the evidence base x draws on and give language to that
+* Be shareable providing stakeholders with an understanding of the research background
+* Support development of x by pointing to gaps (in the tool, or existing evidence) and methods for evaluation
+
+In each of the syntheses, the sections and purposes should:
+
+* Provide a key summary
+* Highlight implications  
+* Point to lessons for future work
+* Link to practical use cases (including those expressed in the developed scenarios). 
+
+These resources comprise:
+
+1. <span style="color:#0d41d1">Three evidence syntheses </span>.
+1. <span style="color:#32cd32">Three Frequently Asked Questions (FAQ) summaries, with questions and answers directly linked back to the longer and fully referenced evidence syntheses</span>.
+
+
+## First question space {#synthesis-checkins}
+
+```{r synthesis-checkin, fig.cap="evidence synthesis: What is the evidence for...", echo=F}
+
+include_doc(my_file = "data/04-synthesis/04-synthesis-checkins.docx")
+
+```
+
+### Checkins FAQ
+
+```{r synthesis-checkin-faq, fig.cap="evidence synthesis for...", echo=F}
+
+include_doc(my_file = "data/04-synthesis/04-synthesis-checkins-FAQ.docx")
+
+```

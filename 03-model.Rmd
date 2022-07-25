@@ -1,0 +1,34 @@
+# Mapping iyarn's theory of change through a feature:output matrix {#model}
+
+```{r ToC-background, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+
+input <- "data/03-model/03_Theory_of_change.docx"
+
+include_frag(input)
+
+
+```
+
+## The model
+
+UTS and x have co-developed a model that represents x's program logic, and allows mapping to evidence and evaluation against this logic. The model is based on:
+
+1.  Our discussions and x's existing stated model (grounded in practice and experience)
+2.  Consultation with subject matter expertise
+3.  Our knowledge and initial scan of the literature and relevant policy and practices resources
+
+This representation of the model shows how x's key features relate to its key outcomes and drivers. It was used to create key questions, targeted in the evidence synthesis and user testing, as shown in \@ref(fig:model). The aim of this model was to focus on the key grounding evidence, and where that evidence might have implications for change and evaluation models
+
+### The model
+
+```{r model, fig.cap="feature:outcome matrix model", echo=F}
+
+include_doc(my_file = "data/03-model/03-model-v3.pptx", title = "feature:outcome matrix model")
+
+```
+
+
+### Adaptability to program logic models
+
+This model is intended to be adaptable to a traditional logic model, as in the example (removed here)
+

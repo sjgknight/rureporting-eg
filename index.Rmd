@@ -1,0 +1,165 @@
+--- 
+title: "projectname: Developing the Evidence Base: Final Project Report \\ \\"
+subtitle: "Knight, S., (2022). projectname: Developing the Evidence Base – Final Project Report. University of Technology Sydney."
+author: "Simon Knight"
+date: "`r Sys.Date()`"
+github-repo: sjgknight/md-generic
+site: "bookdown::bookdown_site"
+url: https\://sjgknight.com
+book_filename: "UTS-final-report"
+biblio-style: apalike
+split_bib: no
+nocite: '@*'
+bibliography: [book.bib, packages.bib]
+link-citations: yes
+description: "Knight, S., (2022). projectname: Developing the Evidence Base – Final Project Report. University of Technology Sydney."
+sharing: no
+params:
+  bibupdate:
+    label: "Update bibliography (true to update, false to skip)"
+    value: FALSE
+    input: radio
+    choices: [TRUE,FALSE]
+output:
+  bookdown::pdf_book:
+    includes:
+      in_header: preamble.tex
+      before_body: before_body.tex
+    book_filename: "UTS-final-report"
+    fig_caption: yes
+    css: "style.css"
+    output_dir: "_book/pdf/"
+    keep_tex: true
+    latex_engine: xelatex
+    titlepage: true
+    titlepage-color: 0d41d1
+    titlepage-text-color: f5f4f5
+    titlepage-rule-color: f5f4f5
+    titlepage-rule-height: 1
+    language:
+      ui:
+        chapter_name: "Part "
+  bookdown::bs4_book:
+    repo: https://github.com/sjgknight/md-generic
+    sharing: no
+    download: ["pdf", "epub"]
+    output_dir: "_book/bs4_book"
+    css: "style.css"
+header-includes:
+  - \usepackage{xcolor}
+  - \usepackage{titling}
+  - \usepackage{pdfpages}
+  - \usepackage{fancyhdr}
+  - \usepackage{floatrow}
+  - \usepackage{caption}
+  - \definecolor{bluerich}{RGB}{13,65,209}
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+  - \floatsetup[figure]{capposition=top}
+  - \includegraphics[width=2in,height=2in]{data/00-misc/logo.png}\LARGE\\}
+  - \posttitle{\end{center}}
+  - \setlength{\headheight}{23pt}
+  - \addtolength{\topmargin}{-11pt}
+  - \fancyfoot[L]{\footnotesize\textcolor{bluerich}{\textbf{University of Technology Sydney} \\ Centre for Research on Education in a Digital Society (CREDS) \\ TD School}}
+  - \fancyfoot[C]{\thepage}
+  - \renewcommand{\footrulewidth}{2pt}
+  - \fancyhead[L]{\itshape\nouppercase{\rightmark}}
+  - \fancyhead[R]{Section \arabic{chapter}}
+  - \pagestyle{fancy}
+documentclass: book
+---
+
+# Working with this document
+
+This report was written as a wrapper site to compile a set of outputs, along with their rationale and the overarching narrative. It was written using a tool called *bookdown*, with the aim to make it easier to navigate the materials without getting lost (and to support export to other formats like PDF). 
+
+This dummy demonstates two key things:
+
+1. The - very messy - rureporting package, primarily the function `include_doc` which will either iframe embed documents (pptx, docx, pdf - all converted to pdf); or merge docs into a single PDF; a function `include_frag` will take a docx and convert to markdown for inclusion in the html. 
+2. Show how the files were setup...it's quite messy, but without playing more with `LaTeX` it broadly let me do the things I wanted to in terms of combining documents in a smarter way than Word allowed
+
+
+```{r load-me, eval=TRUE, include=FALSE}
+pacman::p_load_gh("sjgknight/rureporting")
+
+xfun::pkg_load2(c("htmltools", "mime"))
+
+```
+
+
+```{r eval=FALSE, include=FALSE}
+install.packages("bookdown")
+
+#bookdown::render_book('index.Rmd', 'all')
+
+
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+ 
+# Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+
+# To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+
+#unlink("index_cache", recursive = TRUE) - is very usefl
+#bookdown::serve_book()
+#bookdown::render_book('index.Rmd', 'all')
+
+```
+
+```{r create-bib, include=FALSE, eval=params$bibupdate}
+
+# automatically create a bib database for R packages
+knitr::write_bib(.packages(), "packages.bib", tweak = TRUE) 
+
+#extracted references from word docs using https://rintze.zelle.me/ref-extractor/ 
+
+collection <- "http://127.0.0.1:23119/better-bibtex/export/collection?/2743773/9Q2H88RP.bibtex"
+#http://127.0.0.1:23119/better-bibtex/export/collection?/2743773/all_used.bibtex
+#download.file(collection,"book.bib")
+
+#curl::curl_download(collection,"book.bib")
+
+```
+
+
+```{r set-global-knit, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, out.width = "75%", warnings=F, message=F)
+
+#this one is particularly to hide knitting messages that end up when we include the html fragments. I believe adding quiet = TRUE to render may also work 
+knitr::opts_knit$set(progress=FALSE, verbose=FALSE)
+
+```
+
+
+<!-- Add anchors to # headings using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). 
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+ 
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+ -->
+
+```{r eval=FALSE, include=FALSE}
+#at some point maybe explore these
+
+library(officer)
+library(magrittr)
+
+doc_2 <- read_docx(path = "../report_draft.docx") %>% 
+  body_add_par("Hello world!", style = "Normal") 
+
+pptx_2 <- read_pptx(path = "../Attachments/evidence-base.pptx") 
+doc_2 <- 
+  
+  body_add_docx
+
+
+print(doc_2, target = "example_2.docx")
+
+```
+

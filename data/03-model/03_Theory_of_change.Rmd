@@ -1,0 +1,89 @@
+## Brief background to theory of change
+
+Theories of change can be used to make clear how learning technology
+innovations are designed to produce their desired outcomes in a given
+context (Century & Cassata, 2016; Cukurova et al., 2019; Weatherby et
+al., 2022).
+
+However, identifying the key features in technologies that produce their
+impact can be hard. Therefore, working with a range of experts and end
+users, with the technology and resources created to support the
+innovation, can be a helpful way to identify and define these features,
+and express their relationship to outcomes (Century & Cassata, 2016).
+
+It can also be challenging to align research evidence with innovations
+and existing practices, because priorities in evidence production and
+use may differ, and often we have to navigate incomplete or jigsawed
+evidence alongside new and emerging tools and practices (Ming &
+Goldenberg, 2021, p. 130). For example, while evidence is often referred
+to in terms of a hierarchy from anecdotal to causal (often randomised
+control trials), this may not reflect evidence *quality* for particular
+*purposes* (Cukurova et al., 2019; Weatherby et al., 2022)*.*
+
+Similar to logic models, in the field of 'persuasive technology'
+behaviour change support systems can be modelled using an
+'outcome/change' design matrix. These matrices are intended to map
+desired changes (attitudes, existing behaviours, or compliance with new
+behaviours), to outcome spaces (formation, alternation, reinforcement)
+(Langrial et al., 2013; Tikka & Oinas-Kukkonen, 2019). This model can be
+used to map *features* that target particular behavioural or attitudinal
+changes, to *outcomes* that reflect the longer term changes in users.
+Moreover, they provide an additional approach to mapping evidence to
+connect features of interventions to desired outcomes.
+
+Similarly, 'driver diagrams' have been used in implementation and
+improvement research in education, to express how the key drivers
+towards our goals are addressed by secondary-drivers, to develop
+measurement models that allow us to test interventions across contexts
+(Bryk et al., 2015).
+
+Practically, many funders now *require* applicants to have an explicit
+theory of change model. For example, the Victorian government 'Mental
+Health Fund and Menu' supplier application requires a logic model. These
+can be used to:
+
+1.  Make explicit how tools/interventions are connected to existing
+    evidence
+
+2.  Shape product development, by making clear how proposed product
+    changes influence desired outcomes
+
+3.  Drive evaluation by clearly defining desired outcomes, the
+    observable indicators and outputs we may measure to evaluate
+    progress on these outcomes, and the features of the tool that may be
+    producing outcomes (and could be systematically varied).
+
+## References in this section
+
+Bryk, A. S., Gomez, L. M., Grunow, A., & LeMahieu, P. G. (2015).
+*Learning to improve: How America's schools can get better at getting
+better*. Harvard Education Press.
+
+Century, J., & Cassata, A. (2016). Implementation Research: Finding
+Common Ground on What, How, Why, Where, and Who. *Review of Research in
+Education*, *40*(1), 169--215. https://doi.org/10.3102/0091732X16665332
+
+Cukurova, M., Luckin, R., & Clark-Wilson, A. (2019). Creating the golden
+triangle of evidence-informed education technology with EDUCATE.
+*British Journal of Educational Technology*, *50*(2), 490--504.
+https://doi.org/10.1111/bjet.12727
+
+Langrial, S., Stibe, A., & Oinas-Kukkonen, H. (2013). Practical Examples
+of Mobile and Social Apps using the Outcome/Change Design Matrix.
+*PERSUASIVE (Adjunct Proceedings)*, 7--13.
+
+Ming, N. C., & Goldenberg, L. B. (2021). Research Worth Using:
+(Re)Framing Research Evidence Quality for Educational Policymaking and
+Practice. *Review of Research in Education*, *45*(1), 129--169.
+https://doi.org/10.3102/0091732X21990620
+
+Tikka, P., & Oinas-Kukkonen, H. (2019). Tailoring persuasive technology:
+A systematic review of literature of self-schema theory and
+transformative learning theory in persuasive technology context.
+*Cyberpsychology: Journal of Psychosocial Research on Cyberspace*,
+*13*(3), Article 3. https://doi.org/10.5817/CP2019-3-6
+
+Weatherby, K., Clark-Wilson, A., Cukurova, M., & Luckin, R. (2022). The
+Importance of Boundary Objects in Industry-Academia Collaborations to
+Support Evidencing the Efficacy of Educational Technology. *TechTrends*,
+1--14.

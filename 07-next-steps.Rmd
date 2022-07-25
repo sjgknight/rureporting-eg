@@ -1,0 +1,32 @@
+# Proposed Directions
+
+A set of recommendations are presented below, drawing on the evidence synthesised, analysis of other tools and platforms available, expert input and practitioner input.
+
+These recommendations are intended to situate x’s connection to the evidence base at present, possible gaps/misalignment with this evidence, and opportunities to align and contribute to the evidence base. 
+
+## Assumptions
+
+The literature has a number of potential implications for x development. However it is important to remember that any recommendations from literature are based on the specific aims and theories of change being evaluated and investigated in that literature. x adopts a different model to much of this literature, and therefore the recommendations are not directly transferable. 
+
+We have tried to provide these recommendations in a fairly agnostic form, so they are not contingent on specific implementation (and prioritisation), which is largely the remit of x 
+
+## Recommendations
+
+1.	
+
+## Key resources (collated from elsewhere, for reference here)
+
+### doc 1
+
+Headline issues from the range of docs (not covered in the evidence synthesis summaries).
+
+### Key issues from evidence synthesis
+
+You'll see below that these recommendations (key issues largely highlighted in red) are reflected across the teacher work and wider analysis of the evidence. 
+
+```{r synthesis-recommendations, fig.cap="Highlighted recommendations and position in relation to the evidence", echo=F}
+
+include_doc(my_file = "data/07-recommendations/01-recommendations.docx")
+
+```
+

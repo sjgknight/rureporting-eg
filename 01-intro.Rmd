@@ -1,0 +1,31 @@
+# Introduction {#intro}
+
+## About the research
+
+The project proceeded as described in the project proposal below. This report provides a compilation of the outputs created through the research, and how these contribute to the intended outcomes.
+
+The work was executed with the following scope and context, that the research would:
+
+-   key context 1 
+-   key scope 2
+-   key scope 3 consider alignment of proposals with respect to the tool as it is, to ensure any recommendations were relatively agnostic with respect to the tool design (unless evidence based rationales existed)
+
+The research aimed to develop resources that would:
+
+1.  ground the tool in evidence, with an aim to (a) maximise efficacy, and (b) provide materials and a model to communicate this evidence to stakeholders;
+2.  provide a path for ongoing research and evaluation; and
+3.  develop resources to be incorporated into the tool
+
+This was set out in a (lightly updated) project plan, as in \@ref(fig:final-proposal).
+
+
+## Project plan
+
+```{r final-proposal, fig.cap="final project proposal and plan", echo=F}
+
+include_doc(my_file = "data/00-misc/01-2021-06-21-Final-Proposal.pptx", title = "final project proposal and plan")
+
+
+```
+
+

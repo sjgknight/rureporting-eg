@@ -1,0 +1,26 @@
+# Overview of Research Outcomes {#overview}
+
+## Overview of project and outcomes
+
+The research was conducted through a collaborative project between .... 
+
+UTS undertook:
+
+* A mapping activity to identify the program logic and theory of change for the platform (see \@ref(model) ).
+* Evidence synthesis, targeting the key drivers in the  model, distiling this evidence into key recommendations, and stakeholder-oriented FAQ (see \@ref(evidence-synthesis) )
+* Evidence synthesis and design mapping, drawing on existing resources and evidence to develop practical resources for the intervention...
+* User research, using scenarios that helped focus the evidence synthesis and connect user experience to key issues in design and development (see \@ref(users) )
+
+### Overview of resources produced 
+
+Practically, this work has produced:
+
+*	A theory of change via a feature:outcome matrix model, with key questions and drivers identified
+* Evidence syntheses * 3
+    * FAQ distillations * 3 
+*	An overview of models...
+* An overview of intervention models and theories of behaviour change, with implications for ...
+* A classroom slidedeck, and teacher resources to support stakeholder understanding of, and engagement with the tool 
+* An approach to mapping resources for use in the tool, and a preliminary mapping of these into an xslx
+* A user study with key user insights and connections of this to the existing evidence base
+

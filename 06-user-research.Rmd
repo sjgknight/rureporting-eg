@@ -1,0 +1,41 @@
+# User research {#users}
+
+## Background
+
+A scenario based approach was used to focus the research, and engage with stakeholders via interviews. These scenarios help us to focus in on key issues that arise (1) out of the existing evidence base, and (2) in practice. The scenarios are intended to:
+
+1.	help map out how x ‘works’ to achieve its impact, 
+2.	to explore this with teachers, to understand how they would use the tool, what existing resources they make use of that could be incorporated into the tool, and where there are gaps in the tool
+3.	in a second round of interviews, to revisit the scenarios once support resources are piloted, to evaluate their potential
+
+In addition to scenarios, the teacher interviews made use of other open questions, and a brief survey. 
+
+A feature of the design approach adopted is that the emergence of the literature, and its mapping to a change model for the tool/implementation should be considered in the design and execution of subsequent phases (which may also indicate need to review further literature, or/and revise the model). As such, the exact nature of the scenarios selected for semi-structured interview was iterated, and shaped to address the particular foci of the emerging work. This process was informed by both the existing tool and its user journey(s), and literature including work using or describing scenarios, and research using other methods such as survey instruments to probe particular drivers of change. 
+
+### Research ethics in Australia
+
+* Ethics required for any research involving human participation, this is done at a university level
+* The process sets out what we’ll do and why, who will participate, and how we’ll recruit them
+* The UTS research team sought and gained HREC approval
+
+## Approach
+
+Participants were invited to...
+
+The interviews were recorded via video conferencing software, and transcribed in part, with prior permission of the participants. 
+
+Scenarios were developed to capture the user experience, particularly with reference to the key issues and questions identified in the model. This allowed us to clearly link the implicit theory in the matrix, the evidence synthesis, any open questions, and the user experience and needs together, to triangulate and identify key areas of focus.
+
+*Phase 1 Interviews*
+
+Semi-structured interviews via video conferencing software...
+
+*Phase 2 Interviews*
+
+These semi-structured interviews again took place via video conferencing software ...
+
+## Removed here
+
+Both sets of scenarios removed. 
+
+A round 1 and round 2 report were developed, with a powerpoint (not included here). 
