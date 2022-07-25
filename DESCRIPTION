@@ -5,3 +5,5 @@ Version: 0.0.1
 Imports: bookdown
 Remotes: rstudio/bookdown
 License: file LICENSE
+URL: https://github.com/sjgknight/placeholder
+BugReports: https://github.com/sjgknight/placeholder/issues
