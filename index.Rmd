@@ -78,12 +78,25 @@ This dummy demonstates two key things:
 1. The - very messy - rureporting package, primarily the function `include_doc` which will either iframe embed documents (pptx, docx, pdf - all converted to pdf); or merge docs into a single PDF; a function `include_frag` will take a docx and convert to markdown for inclusion in the html. 
 2. Show how the files were setup...it's quite messy, but without playing more with `LaTeX` it broadly let me do the things I wanted to in terms of combining documents in a smarter way than Word allowed
 
+Feel free to adapt bits (please credit me if it's useful), obviously the colour scheme and branding are linked to my current institution and cannot be used. 
+
 
 ```{r load-me, eval=TRUE, include=FALSE}
 pacman::p_load_gh("sjgknight/rureporting")
 
 xfun::pkg_load2(c("htmltools", "mime"))
 
+```
+
+```{r usethis-process, eval=FALSE, echo=FALSE}
+
+#once you have a project locally, use this to setup git lcally:
+usethis::use_git()
+
+#then, this to create a github repo and link it
+usethis::use_github()
+
+#...so much easier than the other way (where I create a project and forget to create an empty repo first and have to google the command to overwrite the empty late created repo, or varations on that theme)
 ```
 
 
