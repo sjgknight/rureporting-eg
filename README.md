@@ -4,7 +4,7 @@ This report was written as a wrapper site to compile a set of outputs, along wit
 
 This dummy demonstates two key things:
 
-    * The - very messy - rureporting package, primarily the function include_doc which will either iframe embed documents (pptx, docx, pdf - all converted to pdf); or merge docs into a single PDF; a function include_frag will take a docx and convert to markdown for inclusion in the html.
-    * Show how the files were setup…it’s quite messy, but without playing more with LaTeX it broadly let me do the things I wanted to in terms of combining documents in a smarter way than Word allowed
+* The - very messy - rureporting package, primarily the function include_doc which will either iframe embed documents (pptx, docx, pdf - all converted to pdf); or merge docs into a single PDF; a function include_frag will take a docx and convert to markdown for inclusion in the html.
+* Show how the files were setup…it’s quite messy, but without playing more with LaTeX it broadly let me do the things I wanted to in terms of combining documents in a smarter way than Word allowed
 
 Feel free to adapt bits (please credit me if it’s useful), obviously the colour scheme and branding are linked to my current institution and cannot be used.
